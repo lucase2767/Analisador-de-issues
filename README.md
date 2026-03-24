@@ -28,6 +28,14 @@ Este é o primeiro projeto que utiliza uma LLM ja pronta para automação de iss
     python main.py
     ```
 
+## 🧪 Como Rodar os Testes
+
+Para executar os testes unitários da aplicação, basta rodar o comando abaixo na raiz do projeto:
+
+```bash
+pytest
+```
+
 ## Estratégia de Prompting
 
 Para garantir que a IA retorne sempre um JSON válido, o prompt no `ai_agent.py` foi estruturado da seguinte forma:
